@@ -18,6 +18,12 @@
         <!-- Tell Maven to treat all source files as UTF-8 -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+<distributionManagement>
+  <repository>
+    <id>nexus</id>
+    <url>http://<nexus-host>:8081/repository/maven-releases/</url>
+  </repository>
+</distributionManagement>
 
     <dependencies>
         <!-- Here are all your dependencies. Currently only one. These are automatically downloaded from https://mvnrepository.com/ -->

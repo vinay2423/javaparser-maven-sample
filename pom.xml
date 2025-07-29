@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <!-- This is often your domain name (reversed.)  -->
-    <groupId>com.yourorganization</groupId>
+    <groupId>uk.co.dg.lbg</groupId>
     <!-- The name of this project (actually, the name of the artifact, which is the thing that this project produces. A jar in this case.) -->
     <artifactId>javaparser-maven-sample</artifactId>
     <!-- The version of this project. SNAPSHOT means "we're still working on it" -->
-    <version>1.0</version>
+    <version>1.0-SNAPSHOT</version>
 
     <properties>
         <!-- Tell Maven we want to use Java 8 -->
@@ -22,7 +22,7 @@
 <distributionManagement>
   <repository>
     <id>nexus</id>
-    <url>http://192.168.1.100:8081/repository/maven-releases/</url>
+    <url>http://192.168.1.100:8081/repository/maven-snapshots/</url>
   </repository>
 </distributionManagement>
 

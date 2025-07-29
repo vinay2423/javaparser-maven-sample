@@ -22,10 +22,13 @@
 <distributionManagement>
   <repository>
     <id>nexus</id>
-    <url>http://192.168.1.100:8081/repository/maven-snapshots/</url>
+    <url>http://192.168.1.100:8081/repository/maven-releases/</url>
   </repository>
+  <snapshotRepository>
+    <id>nexus</id>
+    <url>http://192.168.1.100:8081/repository/maven-snapshots/</url>
+  </snapshotRepository>
 </distributionManagement>
-
     <dependencies>
         <!-- Here are all your dependencies. Currently only one. These are automatically downloaded from https://mvnrepository.com/ -->
         <dependency>
